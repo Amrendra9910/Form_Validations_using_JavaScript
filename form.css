@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkgrey;
+
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    right: 50%;
+    transform: translate(-50% -50%);
+    max-width: 400px;
+    width: 100%;
+    background-color: papayawhip;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px pink;
+
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: darkorange;
+    margin-top: 20px;
+}
+.image{
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    background-color: darkgray;
+    border: 10px solid  rgb(215, 158, 158) ;
+    border-radius: 20px;
+
+}
+.fimage{
+    width: 25px;
+    height: 20px;
+    color: darkgray;
+    margin-top: 10px;
+}
+.container .input{
+    margin-bottom: 10px;
+}
+.container .input1{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.container .input input[type="text"],.container textarea
+{
+   border:1px solid rgb(241, 241, 195);
+   width:80%;
+   padding:10px;
+}
+.container .input1 input[type="text"],.container textarea
+{
+   border:1px solid rgb(241, 241, 195);
+   width:39%;
+   padding:10px;
+}
+.container textarea
+{
+    resize:none;
+    height:80px;
+}
+.container .btn{
+    margin-bottom: 10px;
+}
+
+.container .btn input[type="submit"]
+{
+    border:0px;
+    margin-top:15px;
+    padding:10px;
+    text-align: center;
+    width:100%;
+    background-color: rgb(21, 121, 171);
+    color:rgb(244, 244, 6);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#my_error
+{
+
+    margin-bottom:20px;
+    background-color: Red;
+    padding:0px;
+    text-align: center;
+    font-size:14px;
+    color:yellow;
+
+
+}
